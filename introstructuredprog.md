@@ -57,7 +57,7 @@ Now imperative programming (instruction-oriented paradigm), in this case the dev
 
  It is used to design applications and computer programs, it is based on various techniques including inheritance, abstraction, polymorphism and encapsulation.
 
- Some examples of object-oriented programming are C++, C#, Java, Perl, Ruby, etc.  
+ Some examples of object-oriented programming are *C++, C#, Java, Perl, Ruby... etc.*  
 
 ## Methods of Programming Paradigms
 
@@ -168,32 +168,28 @@ Swift | `let pi = 3.14159`
  
  Is a symbol or word used to connect two or more expressions such that the value of the compound expression produced depends only on that of the original expressions and on the meaning of the operator. They are:
   
- ```c 
- &&   the logical AND operator.
- ||   the logical OR operator.
- ?:   the logical NOT operator.
- ```
+ `&&`: the logical AND operator.
+ `||`:   the logical OR operator.
+ `?:`:   the logical NOT operator.
 
  Only on Phyton the operators change: 
 
- ```python
-  and the logical AND operator.
-  or the logical OR operator.
-  not the logical NOT operator. 
- ```
+  `and`: the logical AND operator.
+  `or`: the logical OR operator.
+  `not`: the logical NOT operator. 
 
 - Relationship
  
  A relational operator is a programming language construct or operator that tests or defines some kind of relation between two entities. These include numerical equality (e.g., 5 = 5) and inequalities (e.g., 4 ≥ 3). They are:
  
- ```c
- < Less than
- > Greater than
- <= Less than or equal
- >= Greater than or equal
- == Equal
- != Not equal
-```
+ 
+ `<`: Less than
+ `>`: Greater than
+ `<=`: Less than or equal
+ `>=`: Greater than or equal
+ `==`: Equal
+ `!=`: Not equal
+
 
 ## Basic fuctions of input/output (I/O)
 
