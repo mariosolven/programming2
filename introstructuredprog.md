@@ -176,10 +176,11 @@ Swift | `let pi = 3.14159`
 
   * `and` the logical AND operator.
   * `or` the logical OR operator.
-  * `not` the logical NOT operator. 
+  * `not` the logical NOT operator.
+
 
 #### Relationship
- 
+
  A relational operator is a programming language construct or operator that tests or defines some kind of relation between two entities. These include numerical equality (e.g., 5 = 5) and inequalities (e.g., 4 ≥ 3). They are:
  
  
