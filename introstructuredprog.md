@@ -174,9 +174,9 @@ Swift | `let pi = 3.14159`
 
  Only on Phyton the operators change: 
 
- * `and` the logical AND operator.
- * `or` the logical OR operator.
- * `not` the logical NOT operator. 
+  * `and` the logical AND operator.
+  * `or` the logical OR operator.
+  * `not` the logical NOT operator. 
 
 - Relationship
  
