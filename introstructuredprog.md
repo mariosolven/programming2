@@ -17,17 +17,29 @@ Now imperative programming (instruction-oriented paradigm), in this case the dev
 
 ### Declarative
 
-+ Functional: When we use this paradigm we will be working mainly on functions, as it is a declarative paradigm we will focus on what we are doing.
++ Functional: 
+ 
+ When we use this paradigm we will be working mainly on functions, as it is a declarative paradigm we will focus on what we are doing.
 
-+ Data flow: Define applications as "black box" process networks, which exchange data through predefined connections by message steps, where the connections are specified externally to the processes.
++ Data flow: 
+ 
+ Define applications as "black box" process networks, which exchange data through predefined connections by message steps, where the connections are specified externally to the processes.
 
-+ Logic: Studies the use of logic for problem solving and control over the rules of inference to achieve automatic solution. Unifies terms, uses automatic inference mechanisms and has a logical vision of computing.
++ Logic: 
+ 
+ Studies the use of logic for problem solving and control over the rules of inference to achieve automatic solution. Unifies terms, uses automatic inference mechanisms and has a logical vision of computing.
 
-+ Templated: This paradigm is based on solving a problem dividing it into smaller problems. By dividing into simpler problems, the aim is to obtain an easier solution.
++ Templated: 
 
-+ Based: It is aimed at improving the clarity, quality and development time of a computer program, using subroutines and three.
+ This paradigm is based on solving a problem dividing it into smaller problems. By dividing into simpler problems, the aim is to obtain an easier solution.
 
-+ Structures: Sequence, selection (if and switch) and iteration (for and while).  
++ Based: 
+ 
+ It is aimed at improving the clarity, quality and development time of a computer program, using subroutines and three.
+
++ Structures: 
+
+ Sequence, selection (if and switch) and iteration (for and while).  
 
 ### Imperative  
 
@@ -41,7 +53,8 @@ Now imperative programming (instruction-oriented paradigm), in this case the dev
  
  In this programming paradigm, an interpreter is required and unlike other programming languages in the interpreted language, the source code is not compiled once, but every time an instruction is compiled.  
 
-* Object-oriented: 
+* Object-oriented:
+
  It is used to design applications and computer programs, it is based on various techniques including inheritance, abstraction, polymorphism and encapsulation.
 
  Some examples of object-oriented programming are C++, C#, Java, Perl, Ruby, etc.  
@@ -68,13 +81,150 @@ It refers to the form in which data is stored, processed, and transmitted.
 
 - Identifiers
  
- An identifier is a string of alphanumeric characters that begins with an alphabetic character or an underscore character that are used to represent various programming elements such as variables, functions, arrays, structures, unions and so on. Actually, an identifier is a user-defined word.
+ An identifier is a string of alphanumeric characters that begins with an alphabetic character or an underscore character that are used to represent various programming elements such as variables, functions, arrays, structures, unions and so on. Actually, an identifier is a user-defined word. Example: 
+
+ ```c
+ int money;
+ double accountBalance;
+ ```
 
 - Variables
  
- Variables are the names you give to computer memory locations which are used to store values in a computer program. For example, assume you want to store two values 10 and 20 in your program and at a later stage, you want to use these two values.
+ Variables are the names you give to computer memory locations which are used to store values in a computer program. For example, assume you want to store two values 10 and 20 in your program and at a later stage, you want to use these two values. Example:
 
-- 
+ ```c
+ /* variable to store long value */
+ long a;
 
+ /* variable to store float value */
+ float b;
+ ```
 
+- Constants
+
+ Constants are a type of variable that don’t change. They should be used for anything that should not be allowed to change while the program is running. Example:
+
+Language | Constant
+--- | --- 
+C++ | `#define PI 3.1415` or `const double PI = 3.14159;` 
+C# | `const double PI = 3.14159`
+Java | `const double PI = 3.14159;`
+JavaScript | `const PI = 3.14159;`
+Phyton | `PI = 3.14159`
+Swift | `let pi = 3.14159`
+
+- Reserved Words: 
+
+ They are words that are reserved by a program because the word has a special meaning, it can be commands or parameters. Every programming language has a set of keywords that cannot be used as variable names.
+
+- Types of Data:
+
+ 1. Primitives
+ 
+ Data type | Size | Range
+ --- | --- | ---
+ *char* |	1 | -128 to 127
+ *short* | 2 | -32,768 to 32,767
+ *int* | 4 | -2,147,483,648 to 2,147,483,647
+ *long* | 4 | -2,147,483,648 to 2,147,483,647
+ *long long* | 8 | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+ *float* | 4 | -3.4E +/- 38
+ *double* | 8 | 1.7E +/- 308 
+
+ 2. Composites
+ 
+ Data type | Size | Range
+ --- | --- | ---
+ *char* |	1 | -128 to 127
+ *short* | 2 | -32,768 to 32,767
+ *int* | 4 | -2,147,483,648 to 2,147,483,647
+ *long* | 4 | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+ *long long* | 8 | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+ *float* | 4 | -3.4E +/- 38
+ *double* | 8 | 1.7E +/- 308 
+
+- Data type conversion:
+
+ Type conversion or typecasting refers to changing an entity of one datatype into another. There are two types of conversion: 
+
+  * Implicit: also known as coercion, is an automatic type conversion by the compiler. Some languages allow, or even require compilers to provide coercion.
+
+  * Explicit: in some specific way is known as casting. Can also be achieved with separately defined conversion routines such as an overloaded object constructor.
+
+## Operators of Structured Programming Language
+
+- Conditional
+ 
+ Are used to evaluate a condition that's applied to one or two boolean expressions. The result of the evaluation is either true or false. Example:
+
+ ```c
+ if (Condition)
+    First expression 
+ else
+    Second expression
+```
+
+- Logical
+ 
+ Is a symbol or word used to connect two or more expressions such that the value of the compound expression produced depends only on that of the original expressions and on the meaning of the operator. They are:
+  
+ ```c 
+ &&   the logical AND operator.
+ ||   the logical OR operator.
+ ?:   the logical NOT operator.
+ ```
+
+ Only on Phyton the operators change: 
+
+ ```python
+  and the logical AND operator.
+  or the logical OR operator.
+  not the logical NOT operator. 
+ ```
+
+- Relationship
+ 
+ A relational operator is a programming language construct or operator that tests or defines some kind of relation between two entities. These include numerical equality (e.g., 5 = 5) and inequalities (e.g., 4 ≥ 3). They are:
+ 
+ ```c
+ < Less than
+ > Greater than
+ <= Less than or equal
+ >= Greater than or equal
+ == Equal
+ != Not equal
+```
+
+## Basic fuctions of input/output (I/O)
+
+* `scanf`: reads formatted input from stdin.
+* `printf`: sends formatted output to stdout.
+* `getchar`and `putchar`: are used to transfer single characters.
+* `puts`: is used to output strings.
+
+## Distributed Version Control
+
+A distributed version control system (DVCS) is a type of version control where the complete codebase — including its full version history — is mirrored on every developer's computer. It's abbreviated DVCS.
+
+Changes to files are tracked between computers. For example, my workstation and yours. In the beginning, this required specific coordination strategies to maintain consistency in projects, so all the developers could keep track of what was happening to files at any given time.
+
+### References
+
++ https://www.ecured.cu/Paradigmas_de_programacion
++ https://www.ecured.cu/Paradigmas_de_programacion  
++ https://codigofacilito.com/articulos/programacion-funcional  
++ https://es.wikipedia.org/wiki/Programacion_basada_en_flujo  
++ https://ferestrepoca.github.io/paradigmas-de-programacion/proglogica/logica_teoria/lang.html  
++ https://www.ecured.cu/Programacion_Modular  
++ https://www.ecured.cu/Programacion_estructuradahttps://www.ecured.cu/Programacion_estructurada  
++ https://es.wikipedia.org/wiki/Arquitectura_de_Von_Neumann  
++ https://www.ecured.cu/Programacion_Orientada_a_Objetos
++ https://es.wikipedia.org/wiki/Lenguaje_de_programacion_compilado
++ https://www.ecured.cu/Lenguaje_interpretado
++ https://www.perforce.com/blog/vcs/what-dvcs-anyway
++ https://www.sitepoint.com/data-input-and-output-in-c-part-1/
++ http://archive.oreilly.com/oreillyschool/courses/csharp2/csharp204.html
++ http://aboutc.weebly.com/identifiers.html
++ https://www.tutorialspoint.com/computer_programming/computer_programming_variables.htm
++ https://www.bbc.co.uk/bitesize/guides/zc6s4wx/revision/5
 
