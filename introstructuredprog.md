@@ -153,7 +153,7 @@ Swift | `let pi = 3.14159`
 
 ## Operators of Structured Programming Language
 
-#### Conditional
+**Conditional**
  
  Are used to evaluate a condition that's applied to one or two boolean expressions. The result of the evaluation is either true or false. Example:
 
@@ -164,7 +164,7 @@ Swift | `let pi = 3.14159`
     Second expression
 ```
 
-#### Logical
+**Logical**
  
  Is a symbol or word used to connect two or more expressions such that the value of the compound expression produced depends only on that of the original expressions and on the meaning of the operator. They are:
   
@@ -179,7 +179,7 @@ Swift | `let pi = 3.14159`
   * `not` the logical NOT operator.
 
 
-#### Relationship
+**Relationship**
 
  A relational operator is a programming language construct or operator that tests or defines some kind of relation between two entities. These include numerical equality (e.g., 5 = 5) and inequalities (e.g., 4 ≥ 3). They are:
  
