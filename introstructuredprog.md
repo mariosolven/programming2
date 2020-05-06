@@ -168,35 +168,35 @@ Swift | `let pi = 3.14159`
  
  Is a symbol or word used to connect two or more expressions such that the value of the compound expression produced depends only on that of the original expressions and on the meaning of the operator. They are:
   
- `&&`: the logical AND operator.
- `||`:   the logical OR operator.
- `?:`:   the logical NOT operator.
+ * `&&` the logical AND operator.
+ * `||`   the logical OR operator.
+ * `?:`   the logical NOT operator.
 
  Only on Phyton the operators change: 
 
-  `and`: the logical AND operator.
-  `or`: the logical OR operator.
-  `not`: the logical NOT operator. 
+ * `and` the logical AND operator.
+ * `or` the logical OR operator.
+ * `not` the logical NOT operator. 
 
 - Relationship
  
  A relational operator is a programming language construct or operator that tests or defines some kind of relation between two entities. These include numerical equality (e.g., 5 = 5) and inequalities (e.g., 4 ≥ 3). They are:
  
  
- `<`: Less than
- `>`: Greater than
- `<=`: Less than or equal
- `>=`: Greater than or equal
- `==`: Equal
- `!=`: Not equal
+ * `<` Less than
+ * `>` Greater than
+ * `<=` Less than or equal
+ * `>=` Greater than or equal
+ * `==` Equal
+ * `!=` Not equal
 
 
 ## Basic fuctions of input/output (I/O)
 
-* `scanf`: reads formatted input from stdin.
-* `printf`: sends formatted output to stdout.
-* `getchar`and `putchar`: are used to transfer single characters.
-* `puts`: is used to output strings.
+* `scanf` reads formatted input from stdin.
+* `printf` sends formatted output to stdout.
+* `getchar`and `putchar` are used to transfer single characters.
+* `puts` is used to output strings.
 
 ## Distributed Version Control
 
