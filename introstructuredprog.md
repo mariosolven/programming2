@@ -119,7 +119,7 @@ Swift | `let pi = 3.14159`
 
 - Types of Data:
 
- #### Primitives
+ **Primitives**
  
  Are predefined types of data, which are supported by the programming language. Programmers can use these data types when creating variables in their programs. Primitive data types can hold text messages, numbers and so on, but they don't readily accommodate higher levels of complexity.  For example, a programmer may create a variable called "name" and define it as a string data type. The variable will then store data as a string of characters.
 
@@ -136,7 +136,7 @@ Swift | `let pi = 3.14159`
  * String (e.g. abc)
  * Void (e.g. no data)
 
- #### Composites
+ **Composites**
  
  For more elaborate data handling—such as simulating the physics of a dozen bouncing balls or managing a quiz with 500 questions and answers—we turn to composite datatypes. Using composite data, we can manage multiple pieces of related data as a single datum. 
  
@@ -148,7 +148,7 @@ Some examples:
  4. Functions
  
  Functions are technically a type of object and are therefore considered composite data, but we rarely manipulate them as such.
- 
+
 - Data type conversion:
 
  Type conversion or typecasting refers to changing an entity of one datatype into another. There are two types of conversion: 
